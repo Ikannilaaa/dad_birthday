@@ -31,25 +31,26 @@ function MarqueeRow({ photos, reverse = false }) {
 
 function Gallery() {
   const navigate = useNavigate()
+  const base = import.meta.env.BASE_URL
 
   const photos = [
-    '/photos/berdua di pantai.jpg',
-    '/photos/bocil puncak.jpg',
-    '/photos/daddy kacamata keren.jpg',
-    '/photos/tsn.jpg',
-    '/photos/daddy_motor.webp',
-    '/photos/berdua haji.jpg',
-    '/photos/daddy adek.jpg',
-    '/photos/daddy mbak alin.jpg',
-    '/photos/daddy alin.jpg',
-    '/photos/daddy mbak nina.jpg',
-    '/photos/daddy selfie.jpg',
-    '/photos/idul fitri.jpg',
-    '/photos/jogja.jpg',
-    '/photos/kolase kawah.webp',
-    '/photos/majalah daddy.jpg',
-    '/photos/tanjung lesung.jpg',
-    '/photos/kolase.jpg',
+    `${base}photos/berdua di pantai.jpg`,
+    `${base}photos/bocil puncak.jpg`,
+    `${base}photos/daddy kacamata keren.jpg`,
+    `${base}photos/tsn.jpg`,
+    `${base}photos/daddy_motor.webp`,
+    `${base}photos/berdua haji.jpg`,
+    `${base}photos/daddy adek.jpg`,
+    `${base}photos/daddy mbak alin.jpg`,
+    `${base}photos/daddy alin.jpg`,
+    `${base}photos/daddy mbak nina.jpg`,
+    `${base}photos/daddy selfie.jpg`,
+    `${base}photos/idul fitri.jpg`,
+    `${base}photos/jogja.jpg`,
+    `${base}photos/kolase kawah.webp`,
+    `${base}photos/majalah daddy.jpg`,
+    `${base}photos/tanjung lesung.jpg`,
+    `${base}photos/kolase.jpg`,
   ]
 
   return (
